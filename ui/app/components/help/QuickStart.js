@@ -27,7 +27,7 @@ export default () =>
             <div>
               <h2 id="overview">Overview</h2>
               <p>
-                Anyone can create a custom OpenStreetMap epxort with the Export Tool - just register an account. You can register with an OpenStreetMap account from <a href="https://openstreetmap.org">OpenStreetMap.org</a> and a valid email address.
+                Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from <a href="https://openstreetmap.org">OpenStreetMap.org</a> and a valid email address.
               </p>
             </div>
             <div>
@@ -40,13 +40,10 @@ export default () =>
                 </li>
                 <li>
                   <strong>Bounding Box: </strong> Use the "Box" tool to the right to click and drag a rectangle,
-                  or use the "Current View" tool to match the map's viewport.
+                  or use "Current View" to match the map's viewport.
                 </li>
                 <li>
                   <strong>Draw Polygon:</strong> Draw a freeform polygon. This must be a simple (not multi-) polygon.
-                </li>
-                <li>
-                  <strong>Current View:</strong> Use "Current View" to match the map's viewport.
                 </li>
                 <li>
                   <strong>Upload:</strong> By uploading a GeoJSON polygon in WGS84 (geographic) coordinates.
@@ -60,7 +57,7 @@ export default () =>
               <strong>The bounding box of the area can contain at most 10,000,000 OSM nodes. </strong>
               This limitation means that a 10,000 square kilometer box over a heavily mapped area like Western Europe or North America will likely be rejected,
               but an equal sized box over a sparsely mapped area will be accepted by the Export Tool.
-              If you need larger exports, please <a href="mailto:sysadmin@hotosm.org">Contact Us</a> or use an alternative resource such as downloads from <a href="http://download.geofabrik.de">Geofabrik</a> or <a href="https://mapzen.com/data/metro-extracts/">Mapzen</a>.
+              If you need larger exports, please <a href="mailto:sysadmin@hotosm.org">Contact Us</a> or use an alternative resource such as downloads from <a href="http://download.geofabrik.de">Geofabrik</a>.
               </p>
             </div>
             <div>
@@ -110,7 +107,7 @@ export default () =>
               </p>
               <ul>
                 <li><strong>Submitted: </strong> The export is waiting to be processed. This should be brief, depending on server load.</li>
-                <li><strong>Running: </strong> The export is waiting to be processed. City-sized regions should be a few minutes -
+                <li><strong>Running: </strong> The export is being processed. City-sized regions should be a few minutes -
                 larger regions can take upwards of 20 minutes, depending on the density of OSM data.</li>
                 <li><strong>Completed: </strong> Your export files are available for download. Each export format has a separate download link for its ZIP archive.</li>
               </ul>
