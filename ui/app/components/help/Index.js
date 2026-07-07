@@ -86,7 +86,7 @@ export default () =>
               <h2>
                 <Link to="/learn/api">Export Tool API</Link>
               </h2>
-              <p>Create exports programatically via the JSON API.</p>
+              <p>Create exports programmatically via the JSON API.</p>
               <Link className="btn btn-default" to="/learn/api">
                 View
               </Link>

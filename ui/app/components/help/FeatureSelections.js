@@ -101,7 +101,7 @@ export default () =>
               <h2 id="moreresources">More Resources</h2>
               <ul>
                 <li><a href="http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags">OpenStreetMap Wiki - Humanitarian OSM Tags</a></li>
-                <li><a href="http://wiki.openstreetmap.org/wiki/Map_Features">OpenstreetMap Wiki - OSM Tags</a></li>
+                <li><a href="http://wiki.openstreetmap.org/wiki/Map_Features">OpenStreetMap Wiki - OSM Tags</a></li>
               </ul>
             </div>
           </Col>

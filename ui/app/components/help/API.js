@@ -24,7 +24,7 @@ export default () =>
             <div>
               <h2 id="overview">Overview</h2>
               <p>
-                The Export Tool has an API that can be called programatically via the web. 
+                The Export Tool has an API that can be called programmatically via the web.
                 For example, you can automatically schedule an export to be run weekly to accompany a humanitarian mapping project.
               </p>
             </div>
@@ -72,7 +72,7 @@ export default () =>
               <p>
                 This is an incomplete list of API endpoints. For more information,
                 please consult the{" "}
-                <a href="https://github.com/hotosm/osm-export-tool2/tree/master/api">
+                <a href="https://github.com/hotosm/osm-export-tool/tree/main/api">
                   source code on GitHub
                 </a>{" "}
                 or explore <a href="/api/">the auto-generated API documentation</a>.

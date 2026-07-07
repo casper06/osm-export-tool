@@ -60,7 +60,7 @@ export default () =>
               <h2 id="rerunexport">Re-running an Export</h2>
               <img src={rerunClone} style={{width:"50%"}} />
               <p>
-                  “Re-running” an export lets you extract data using the same settings of the area, description, file formats and feature selection.
+                  "Re-running" an export lets you extract data using the same settings of the area, description, file formats and feature selection.
                   This function is generally used to obtain updated OSM data, including any added or modified information since the export was last run.
                   This is important to ensure that the information is current as OSM is constantly changing.
                   You will need to authenticate with an account to re-run an export.
@@ -80,7 +80,7 @@ export default () =>
             <h3>IN THIS AREA</h3>
             <ul>
               <li><a href="#overview">Overview</a></li>
-              <li><a href="#exportlist">Export List</a></li>
+              <li><a href="#exportslist">Exports List</a></li>
               <li><a href="#exportdetails">Export Details</a></li>
               <li><a href="#rerunexport">Re-running an Export</a></li>
               <li><a href="#cloneexport">Cloning an Export</a></li>

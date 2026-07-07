@@ -65,7 +65,7 @@ export default () =>
                   examples of keys in mappings.
                 </li>
                 <li>
-                  the child elements of <code>select</code> and <code>types</code> are
+                  The child elements of <code>select</code> and <code>types</code> are
                   lists. List elements are preceded by a dash. This dash must have a
                   space after it.
                 </li>
@@ -90,13 +90,13 @@ export default () =>
             <div>
               <h2 id="geometrytypes">Geometry Types</h2>
               <p>
-                the list values under types can be one or more of <code>- points</code>,{" "}
-                <code>- lines</code>, <code>- polygons</code>. if the <code>types</code>{" "}
+                The list values under types can be one or more of <code>- points</code>,{" "}
+                <code>- lines</code>, <code>- polygons</code>. If the <code>types</code>{" "}
                 key is omitted, all 3 geometry types will be included in the theme.
               </p>
             </div>
             <div>
-              <h2 id="columnselections">Column selections</h2>
+              <h2 id="columnselections">Column Selections</h2>
               <p>
                 List items under the <code>select</code> key determine the columns for
                 each theme.
@@ -140,7 +140,7 @@ export default () =>
                 <code>natural</code> has the value <code>waterway</code>. It is almost
                 always necessary to have some kind of filtering, otherwise your theme
                 will simply include all OSM features for the given geometry types. You
-                can specify a filter using SQL-like syntax. valid SQL keywords are{" "}
+                can specify a filter using SQL-like syntax. Valid SQL keywords are{" "}
                 <code>IS NOT NULL, AND, OR, IN, =, !=</code>.
               </p>
               <p>Other examples of filters:</p>
